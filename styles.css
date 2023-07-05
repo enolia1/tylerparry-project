@@ -1,0 +1,45 @@
+h1 strong {
+  text-align: center;
+  font-family: serif;
+}
+
+img {
+  width: 1000px;
+  height: 800px;
+  object-fit: cover;
+  color: gray;
+  position: relative;
+  display: block;
+  margin: auto;
+  border-radius: 10px 10px;
+}
+body {
+  background: linear-gradient(
+    87.4deg,
+    rgb(187, 176, 112) 1.9%,
+    rgb(200, 125, 76) 49.7%,
+    rgb(163, 136, 136) 100.5%
+  );
+  transition-property: opacity, transform;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-optical-sizing: auto;
+  text-align: center;
+  opacity: 1;
+  font-family: "Bacasime_Antique variant0", Tofu;
+  line-height: initial;
+  transition-duration: 350ms;
+}
+
+video {
+  margin-top: 0px;
+  display: block;
+  margin: auto;
+  border-radius: 20px 20px;
+}
+
+p {
+  font-size: large;
+  font-style: italic;
+}
